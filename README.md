@@ -25,6 +25,7 @@ After obtaining your API Key and Shared Secret, modify the configuration lines i
 After running the script for the first time, you'll be asked to authenticate the application. After this, all subsequent executions of the script should run on its own!
 
 To automate `YARGfm` on Windows, you can use a tool like Task Scheduler to run the script. An example task could look like this:
+
 ![alt text](image.png)
 
 **Known Issues**:

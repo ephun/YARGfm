@@ -38,7 +38,6 @@ network = pylast.LastFMNetwork(
 
 
 # --- Functions ---
-
 def ticks_to_struct_time(ticks):
     """Converts .NET-style ticks to a struct_time tuple. Scores.db keeps `Date` in ticks, and Last.fm API requires UTC."""
     ticks_since_epoch = ticks / 10000000  # Ticks per second
@@ -63,12 +62,11 @@ def scrobble_tracks(tracks):
 
 def get_new_records(last_checked_timestamp=None):
     """Retrieves new game records from score.db."""
-
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
     if last_checked_timestamp:
-        """Convert last_checked_timestamp to a tick value"""
+        """Convert last_checked_timestamp back to a tick value to check against the database"""
         last_checked_tick = (last_checked_timestamp - datetime.datetime(1, 1, 1)).total_seconds() * 10000000
         query = (
             f"SELECT Date, SongName, SongArtist FROM GameRecords "

@@ -1,7 +1,7 @@
 # YARGfm
 Script to scrobble [YARG](https://yarg.in/) songs to [Last.FM](https://www.last.fm/). 
  
-**Generative AI acknowledgment: This script was written with the Google Gemini 1.5 LLM. I do not claim to be the "author" of this file because I did not directly write the code. I simply revised it and researched the required mechanisms and processes that were converted into Python code.**
+**Generative AI acknowledgment: This script was written with the Google Gemini 1.5 LLM. I do not claim to be the "programmer" of this script because I did not directly write the code. I simply revised it and researched the required mechanisms and processes that were converted into Python code.**
 
 ## Dependencies
 YARG.fm requires the following Python libraries:

@@ -10,7 +10,7 @@ YARG.fm requires the following Python libraries:
 
 It is **strongly recommended** that you have a basic understanding of Python and managing a Python environment before using this script.
 ## Usage
-In order to set up YARG.fm, you must have a Last.FM api account. This is a straightforward process and can be done here: https://www.last.fm/api/account/create. API Applications can be viewed at https://www.last.fm/api/accounts.
+To set up YARG.fm, you must have a Last.FM API account. This is a straightforward process and can be done here: https://www.last.fm/api/account/create. API Applications can be viewed at https://www.last.fm/api/accounts.
 
 After obtaining your API Key and Shared Secret, modify the configuration lines in `yargfm.py`. For privacy reasons, you may not want to hard-code these values into your `yargfm.py` instance.
 

@@ -1,0 +1,3 @@
+pylast
+python-dotenv
+requests
